@@ -40,6 +40,9 @@
 #ifndef _NVAPI_DRIVER_SETTINGS_H_
 #define _NVAPI_DRIVER_SETTINGS_H_
 
+#include "nvapi.h"
+#include <wchar.h>
+
 #define OGL_AA_LINE_GAMMA_STRING                   L"Antialiasing - Line gamma"
 #define OGL_DEEP_COLOR_SCANOUT_STRING              L"Deep color for 3D applications"
 #define OGL_DEFAULT_SWAP_INTERVAL_STRING           L"Controls the number of vblank signals from the display to wait before rendering a frame (SwapInterval) on OpenGL. In order to force VSYNC ON or OFF, use VSYNCMODE."
